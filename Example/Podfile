@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NetWorkRequest_Example' do
+  pod 'NetWorkRequest', :path => '../'
+
+  target 'NetWorkRequest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
