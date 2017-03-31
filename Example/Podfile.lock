@@ -1,0 +1,36 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - NetWorkRequest (0.1.0):
+    - AFNetworking
+    - SBJson
+  - SBJson (5.0.0)
+
+DEPENDENCIES:
+  - NetWorkRequest (from `../`)
+
+EXTERNAL SOURCES:
+  NetWorkRequest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  NetWorkRequest: 801f9ea8e2abf475991b87cbd6df3c5852866afb
+  SBJson: 73c848dc34be51fda282fab12bda6c426f5ead08
+
+PODFILE CHECKSUM: c9a56de03b3e79121c0ea70f7c05e467c3d46289
+
+COCOAPODS: 1.2.0.beta.1

@@ -7,7 +7,7 @@
 //
 
 #import "YYViewController.h"
-
+#import "NetWorkRequest.h"
 @interface YYViewController ()
 
 @end
@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [NetWorkRequest post:@"https://www.baidu.com" params:[NSMutableDictionary dictionary] success:nil failure:nil];
 }
 
 - (void)didReceiveMemoryWarning
